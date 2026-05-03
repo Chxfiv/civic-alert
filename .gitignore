@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (sensitive - never upload)
+backend/.env
+frontend/.env
+
+# Build
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads folder (user uploaded images)
+backend/uploads/*
+!backend/uploads/.gitkeep
